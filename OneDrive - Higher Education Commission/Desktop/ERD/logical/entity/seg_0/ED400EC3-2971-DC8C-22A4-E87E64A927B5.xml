@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED400EC3-2971-DC8C-22A4-E87E64A927B5" name="Food_Info">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:11:30 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Food_type" id="6DFE0EEA-2983-7071-6918-D5B7125C10DD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:11:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Food_Description" id="571F1B06-A0A9-8E90-9AF3-064197D98F21">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:12:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Food_price" id="09738B6C-0F19-3AB7-D712-F15F9D9846EF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:12:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Food_id" id="6D8B8D9A-93CD-84D8-7A26-CE90412F66CC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:53:23 UTC</createdTime>
+<generatorID>4D4DCBE1-6E42-F1D0-A201-D1B799300B04</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<referedAttribute>7814FEF6-C4C8-839F-D8C6-C1CB283DBD52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Food_type1" id="889BF3F6-51F6-453D-E9F0-3CA3A27AC8F5">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:53:23 UTC</createdTime>
+<generatorID>4D4DCBE1-6E42-F1D0-A201-D1B799300B04</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<referedAttribute>B42A7ED3-4C17-F28E-ECC9-4402B341F292</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FDD7F07-3D9D-0DB0-9FDE-F2BF99404238" name="Food_Info PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:12:33 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DFE0EEA-2983-7071-6918-D5B7125C10DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

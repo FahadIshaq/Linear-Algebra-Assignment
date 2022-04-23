@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA1D9EE8-3CD3-66B5-2660-5DC0199FE6DD" name="Laundry">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>84F69677-EBF3-AEAE-4DDD-76F5ED9473C0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Laundry_id" id="D72BF748-2BB0-0AC7-0E5A-50553EB9F8B3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>49253499-32D2-3570-65C5-D49A98D4CCE4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_of_pieces" id="CFF22E86-F046-CAB5-255F-4600E4133195">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>08102F64-CEE1-67F9-8458-CB6F4C581C96</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="B395001C-0435-240B-654A-3313E28D15DF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>3BEFB7B9-083B-97FE-DD1D-47C9AA4C5E67</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="45EEA41C-062A-91C9-984B-0A831C5120B8" name="Laundry_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>054663AA-E5F4-2DC3-8352-72086892CFAB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D72BF748-2BB0-0AC7-0E5A-50553EB9F8B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5F3BE3C-B3F2-FDC5-AB5C-FA55228FC14D" name="Food">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:49:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Food_id" id="7814FEF6-C4C8-839F-D8C6-C1CB283DBD52">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:49:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Food_type" id="B42A7ED3-4C17-F28E-ECC9-4402B341F292">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:50:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28670BB6-DE23-56DC-C393-DE7F7D992BE1" name="Food PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:49:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7814FEF6-C4C8-839F-D8C6-C1CB283DBD52</attributeRef>
+<attributeRef>B42A7ED3-4C17-F28E-ECC9-4402B341F292</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

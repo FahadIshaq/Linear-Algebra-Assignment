@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1CBAF18-4354-4457-4DF8-67AEF6CF8487" name="Food">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>C5F3BE3C-B3F2-FDC5-AB5C-FA55228FC14D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Food_id" id="942F36A6-064C-5E7F-064D-5B0540876DDB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>7814FEF6-C4C8-839F-D8C6-C1CB283DBD52</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Food_type" id="44025791-41E9-37C1-7D40-EFDC9F26BB46">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>B42A7ED3-4C17-F28E-ECC9-4402B341F292</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB1CF57B-FEB5-0F92-6168-B69C1931E5CC" name="Food_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>28670BB6-DE23-56DC-C393-DE7F7D992BE1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="942F36A6-064C-5E7F-064D-5B0540876DDB"/>
+<colUsage columnID="44025791-41E9-37C1-7D40-EFDC9F26BB46"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

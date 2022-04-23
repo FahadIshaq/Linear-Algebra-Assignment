@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84C15F4C-DD41-1F66-CC28-EE03370167BD" name="Food_Info">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>ED400EC3-2971-DC8C-22A4-E87E64A927B5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Food_type" id="BD4F5ACD-6060-60EE-A217-3410C85C21B2">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>6DFE0EEA-2983-7071-6918-D5B7125C10DD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Food_Description" id="FD2D144B-6A29-6980-C3EE-D44087DDE13E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>571F1B06-A0A9-8E90-9AF3-064197D98F21</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Food_price" id="C7E381C7-3037-0F05-1BB1-166ACD9F9BEE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>09738B6C-0F19-3AB7-D712-F15F9D9846EF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Food_Food_id" id="6389D135-F869-03CD-4637-C590346BACDA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>6D8B8D9A-93CD-84D8-7A26-CE90412F66CC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDB86833-597A-4A09-115F-002AEC2A432F" referredColumn="942F36A6-064C-5E7F-064D-5B0540876DDB"/>
+</associations>
+</Column>
+<Column name="Food_Food_type" id="06761CB9-7026-1B29-BE4B-066FEF2DA240">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>889BF3F6-51F6-453D-E9F0-3CA3A27AC8F5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDB86833-597A-4A09-115F-002AEC2A432F" referredColumn="44025791-41E9-37C1-7D40-EFDC9F26BB46"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="58DEE127-A843-2CED-AFC4-8FC88BD89B9F" name="Food_Info_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>5FDD7F07-3D9D-0DB0-9FDE-F2BF99404238</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD4F5ACD-6060-60EE-A217-3410C85C21B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D56793DA-45CD-61CC-5FEB-75F3C643C1FE" name="Food_Info__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4D4DCBE1-6E42-F1D0-A201-D1B799300B04</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6389D135-F869-03CD-4637-C590346BACDA"/>
+<colUsage columnID="06761CB9-7026-1B29-BE4B-066FEF2DA240"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F05E2A87-10F1-89ED-0CA7-946CC1A762F3" name="Food_Info_Food_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>4D4DCBE1-6E42-F1D0-A201-D1B799300B04</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6389D135-F869-03CD-4637-C590346BACDA"/>
+<colUsage columnID="06761CB9-7026-1B29-BE4B-066FEF2DA240"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

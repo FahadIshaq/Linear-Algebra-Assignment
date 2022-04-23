@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77929056-41D8-DA9F-90B8-3489F248164F" name="Room_Info">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>89F132AB-83A0-B362-D187-C264D74CF3F4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Room_type" id="B4D97E0A-1276-8104-FFF3-530E5A0205F7">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>87212D78-2ABD-F25B-EC89-35D2C4027365</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="787B2F0A-5A4B-94B9-14ED-F14B6BB1FE3D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>828F90AC-B308-23C5-DB22-D90938A99112</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room+Description" id="31E2BBEA-B8FC-AE4C-ABF4-23DD894EA1CA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>8EE8FD42-2313-93E4-6219-411431D1A156</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Room_Room_ID" id="13661D02-2B67-76CE-691B-6430A5C6277E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>DFE6B1C3-3B2D-71F7-11D4-3DC14B632D05</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA93DA16-F69E-3CD3-7E69-A95A964309C3" referredColumn="5A060660-C87D-B1E1-0B68-36F8B47A550C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4DCD6F80-A21B-8330-BC9C-21F015EA6D26" name="Room_Info_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>1EA9B7E1-ED62-DEDB-66AC-5930E4EABDB3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4D97E0A-1276-8104-FFF3-530E5A0205F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F036B59-C65F-9050-C942-64B3C85AC2E4" name="Room_Info__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F6B12B67-14D5-BB98-2309-F726A59119CC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="13661D02-2B67-76CE-691B-6430A5C6277E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16D838F1-E3BA-1EFC-49DD-A2A43D0FC553" name="Room_Info_Room_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>F6B12B67-14D5-BB98-2309-F726A59119CC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13661D02-2B67-76CE-691B-6430A5C6277E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

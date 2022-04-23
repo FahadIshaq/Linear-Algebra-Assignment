@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="106C57DD-A044-010A-2934-3689F9DF032B" name="Give">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_CNIC" id="96DE92D1-1042-F0FD-872B-C1CFDD84777F">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E59D38CB-AEE5-2602-09B3-86C8952A435A" referredColumn="2FF64BC4-7226-29E7-F46E-927F2175FD01"/>
+</associations>
+</Column>
+<Column name="Reviews_Review_id" id="7D56EAE4-A234-B7E5-1E92-4DB0852DA8D6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88385547-FBD8-7487-1CD8-1A3C0FCBBD09" referredColumn="C19F2298-C135-21EF-BA91-99C01BA7EDBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25931EF4-43BF-5FEC-050A-11566470A4F8" name="Give_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96DE92D1-1042-F0FD-872B-C1CFDD84777F"/>
+<colUsage columnID="7D56EAE4-A234-B7E5-1E92-4DB0852DA8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4DB7F7C-F90A-31D5-0DBE-B288B5E4CEEC" name="Give_Customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>1E96D523-FFF0-4D28-BF49-C3085B5F23E7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96DE92D1-1042-F0FD-872B-C1CFDD84777F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB0A6DDB-B672-4EE3-1210-857466193A0F" name="Give_Reviews_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>1E96D523-FFF0-4D28-BF49-C3085B5F23E7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D56EAE4-A234-B7E5-1E92-4DB0852DA8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

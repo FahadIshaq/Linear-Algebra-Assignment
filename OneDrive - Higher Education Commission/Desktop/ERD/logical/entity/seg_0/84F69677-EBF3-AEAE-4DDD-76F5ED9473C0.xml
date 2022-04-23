@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84F69677-EBF3-AEAE-4DDD-76F5ED9473C0" name="Laundry">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:20:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Laundry_id" id="49253499-32D2-3570-65C5-D49A98D4CCE4">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:20:06 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_of_pieces" id="08102F64-CEE1-67F9-8458-CB6F4C581C96">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:20:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="3BEFB7B9-083B-97FE-DD1D-47C9AA4C5E67">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:20:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="054663AA-E5F4-2DC3-8352-72086892CFAB" name="Laundry PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:20:18 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>49253499-32D2-3570-65C5-D49A98D4CCE4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

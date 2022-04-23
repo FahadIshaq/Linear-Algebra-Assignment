@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4FB3207-D1D3-40BF-4BC4-87A97803D4B1" name="Reservations">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:32:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Reservation_id" id="68859582-78A4-3DCC-CD25-1BF2C446A62C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:32:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNIC" id="A57CDE05-2F6E-E1C8-3C09-631B8B63EEB3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:32:38 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_in" id="9FC7B90D-7171-43EE-59B2-74C41B9005A6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:33:09 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Check_out" id="93A0D6E3-DC9D-BBD8-A62E-019E07EA3827">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:33:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room_No" id="9141825E-E209-281D-A2D3-A0D1A2C33C8C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:33:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNIC1" id="3B11C8A2-9EE0-D569-3EFE-457BF513E0C5">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:55:31 UTC</createdTime>
+<generatorID>CBE13213-0F27-1E91-823D-FA1220FCEA0A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<referedAttribute>7C39069C-4EFD-F9A9-5795-C2B95BB2AE52</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9C11288A-21DB-0237-91ED-A895FA8CE970" name="Reservations PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:32:36 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68859582-78A4-3DCC-CD25-1BF2C446A62C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

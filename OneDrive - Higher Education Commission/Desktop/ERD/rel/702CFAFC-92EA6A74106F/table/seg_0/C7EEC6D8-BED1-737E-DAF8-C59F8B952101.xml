@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7EEC6D8-BED1-737E-DAF8-C59F8B952101" name="Hotel">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>7C93A039-C6EA-977A-91B7-B38A6C03D20B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Hotel_ID" id="B13E8230-8FCF-6E67-7168-DFAB030F55CA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>D5E01213-6F8C-4E5A-029E-80980E8A845C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hotel_Name" id="7FBC17B3-871A-EECF-D651-889D3EC5CF52">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>3C6E3815-7D5C-3645-6D41-747D7C6B329A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 BYTE</dataTypeSize>
+<ownDataTypeParameters>256 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_CNIC" id="F58274CF-16CF-9AC1-EE05-80642F4DF66A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>D27E5F5C-6D34-8098-F6B1-BA862C6F72B7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6D42C62-3669-004E-30B1-E9D8CCE77E3B" referredColumn="63974C98-1B51-1703-7BA5-57DE5A44136B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF07228-FEBE-6099-1005-30DF73698595" name="Hotel_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>5C5F3324-4681-DE51-331A-A68055AEFDCE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13E8230-8FCF-6E67-7168-DFAB030F55CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B03B3C6E-D543-DE42-B2C8-6ED575CA1FD9" name="Hotel__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5C265309-FFF0-A9D0-AA9B-5F7178ED8260</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F58274CF-16CF-9AC1-EE05-80642F4DF66A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD2A9BFF-FB50-7BFB-08D7-74E65CA21528" name="Hotel_Admin_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>5C265309-FFF0-A9D0-AA9B-5F7178ED8260</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F58274CF-16CF-9AC1-EE05-80642F4DF66A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92A9771C-C013-F482-54F0-3DEBABF181C3" name="Check">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_CNIC" id="38C4C3EB-EE89-3F69-AC75-7619E374F9CD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDED0D33-4C90-1EFE-7635-FBE2CDE3C447" referredColumn="2FF64BC4-7226-29E7-F46E-927F2175FD01"/>
+</associations>
+</Column>
+<Column name="Reservations_Reservation_id" id="D2C7EBD9-5F22-40EA-ECBD-8DFB769FBAE3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFE74D51-8E07-EF44-7872-F9BA47E8B061" referredColumn="1DE5367B-A0A1-9EB4-BB0D-BA1DD89540C4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5551EF5B-3B4E-888D-DBBE-5577B5E7CAD8" name="Check_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38C4C3EB-EE89-3F69-AC75-7619E374F9CD"/>
+<colUsage columnID="D2C7EBD9-5F22-40EA-ECBD-8DFB769FBAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8840E011-5AC9-81BD-B79D-4DA622C9672C" name="Check_Customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>90C69E92-2F83-5B27-D490-E1ACB91B27D2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38C4C3EB-EE89-3F69-AC75-7619E374F9CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="882E5711-F3E0-4CF1-80DC-08F308C1EA1C" name="Check_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>90C69E92-2F83-5B27-D490-E1ACB91B27D2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2C7EBD9-5F22-40EA-ECBD-8DFB769FBAE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

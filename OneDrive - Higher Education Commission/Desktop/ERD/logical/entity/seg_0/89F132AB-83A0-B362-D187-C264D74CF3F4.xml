@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89F132AB-83A0-B362-D187-C264D74CF3F4" name="Room_Info">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:43:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Room_type" id="87212D78-2ABD-F25B-EC89-35D2C4027365">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:43:44 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="828F90AC-B308-23C5-DB22-D90938A99112">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:44:24 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room+Description" id="8EE8FD42-2313-93E4-6219-411431D1A156">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:44:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Room_ID" id="DFE6B1C3-3B2D-71F7-11D4-3DC14B632D05">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 20:54:34 UTC</createdTime>
+<generatorID>F6B12B67-14D5-BB98-2309-F726A59119CC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<referedAttribute>06267E65-FC8C-D5A8-F195-321F2F8B3690</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1EA9B7E1-ED62-DEDB-66AC-5930E4EABDB3" name="Room_Info PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 19:44:23 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="702CFAFC-4A9E-875D-CE9F-92EA6A74106F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>87212D78-2ABD-F25B-EC89-35D2C4027365</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

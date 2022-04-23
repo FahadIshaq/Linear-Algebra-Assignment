@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A0A88A9-2A55-B0C5-BEB0-0AB33B1C9A8A" name="Pay">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_CNIC" id="3694873A-831C-7F8F-2141-481E9370F1E0">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F791F891-797C-266D-FC9B-F437E7EDE5A1" referredColumn="2FF64BC4-7226-29E7-F46E-927F2175FD01"/>
+</associations>
+</Column>
+<Column name="Payment_CNIC" id="FD49CE1E-1DC3-7C21-CC2C-17A77D2A2417">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="365CAAA2-4D30-1374-D6EA-985332E2B8C6" referredColumn="67A4D5A2-A38D-B80F-C837-18F50EEFA46F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A6FC52B-36E3-4F27-478A-2472C6D9A38A" name="Pay_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3694873A-831C-7F8F-2141-481E9370F1E0"/>
+<colUsage columnID="FD49CE1E-1DC3-7C21-CC2C-17A77D2A2417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62FACD14-D321-008E-7B94-E9EF3A4D7675" name="Pay_Customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>794732F2-628B-F305-01AA-BA041F70598C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3694873A-831C-7F8F-2141-481E9370F1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="885BFDDA-6537-D4DB-8DBF-2CBF37FF3858" name="Pay_Payment_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-20 21:49:13 UTC</createdTime>
+<generatorID>794732F2-628B-F305-01AA-BA041F70598C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD49CE1E-1DC3-7C21-CC2C-17A77D2A2417"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
