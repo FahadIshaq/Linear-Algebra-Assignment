@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B67FC26A-9B56-7F52-ACC7-6FA894AAC9CA" name="Reservations">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:11:08 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="res_id" id="12CA68B9-6545-44D8-3016-9CD3E996C78E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:11:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_cnic" id="EF83D947-956B-54FD-B78A-7A5B073E95FC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:11:43 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_checkin" id="B9DBF593-9BAE-43C8-115C-A9DD7A843CC1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:12:13 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_checkout" id="FEE4F499-0335-4694-80D4-087764698C58">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:14:43 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_room_id" id="05CF7CF4-52A9-ED43-D7C3-80DAC44CE700">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:15:00 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_id" id="13E2C8A5-F9B4-90EE-2AC9-BFFA91BDB533">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 18:44:38 UTC</createdTime>
+<generatorID>09185296-6C26-AC78-4872-C90F3E6F80AA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>B15D2BA8-648C-4DD6-9936-BD203E4FBDE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE0EF22A-F4B4-2897-EEDD-C16A9DDF7F73" name="Reservations PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:11:38 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>12CA68B9-6545-44D8-3016-9CD3E996C78E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

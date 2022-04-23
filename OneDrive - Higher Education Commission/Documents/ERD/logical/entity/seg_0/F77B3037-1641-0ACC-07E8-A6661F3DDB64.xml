@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F77B3037-1641-0ACC-07E8-A6661F3DDB64" name="Receptionist">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:22:01 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rep_id" id="3F0D8919-1D17-7D90-D1EF-5714A88FDD6A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:22:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="432301D0-D234-6034-51F8-DC8920302175">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:22:38 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="FA434EAA-042D-26A3-B874-02E948933815">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:22:59 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8051D53-5D35-6069-E680-F43ED86EADAC" name="Receptionist PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:22:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F0D8919-1D17-7D90-D1EF-5714A88FDD6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

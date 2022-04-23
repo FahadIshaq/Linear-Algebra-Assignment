@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28041B00-6535-154A-793A-64F878E715EE" name="Payment">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:04:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pay_id" id="65C0A307-F728-0F84-D190-B34288DB3BCA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:04:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_method" id="1AB03F7E-5CF9-4C98-610C-2857910053E5">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:04:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_date" id="690D5D4E-62AD-F031-08B9-A6A050F3ED52">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:04:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pay_price_paid" id="A681D4F1-F4AB-B6B1-F46C-78FE2E054E3A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:06:46 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2CA64349-E757-97FA-D3FB-AD27D3ABED1F" name="Payment PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:05:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65C0A307-F728-0F84-D190-B34288DB3BCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

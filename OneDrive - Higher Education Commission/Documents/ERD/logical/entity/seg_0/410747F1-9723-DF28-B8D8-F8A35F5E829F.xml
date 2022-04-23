@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="410747F1-9723-DF28-B8D8-F8A35F5E829F" name="Admin">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 16:39:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ad_cnic" id="B1ECA6B5-DCB4-413E-99DC-F7F326325363">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 16:39:45 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_name" id="E97AAC07-3D80-80EC-7FFF-B345C06D5E5B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 16:41:27 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_address" id="B7F1A8C0-B219-F8C5-78FD-F60AE63F81E6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 16:41:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_email" id="361873AA-C0CA-8A40-B5EC-6E536E221E26">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 18:53:16 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_password" id="5BA2A7C3-B424-1A35-9F56-05739504C2FC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 18:54:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D4E3409-C93D-677D-B712-A442CAB3696C" name="Admin PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 16:41:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1ECA6B5-DCB4-413E-99DC-F7F326325363</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

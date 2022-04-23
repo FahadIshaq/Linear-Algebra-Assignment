@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E6A4552B-B6C0-9EFC-4B16-58C5ABFEB271" name="Reviews">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:09:19 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="review_id" id="1F9BE2D5-693C-AB30-6A7C-CCB33F309D16">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:09:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review" id="8F16903C-41CA-7A4B-92C3-0DEEACDA380E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:09:51 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="review_date" id="DB2711E7-DF70-2408-F5D8-A44F1A91C3BD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:10:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_id" id="93063FAA-1AF3-706F-74F5-62036D09F74E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:42:09 UTC</createdTime>
+<generatorID>0FAA793B-3315-79A7-1934-6CB0BEFC4C8E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>B15D2BA8-648C-4DD6-9936-BD203E4FBDE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="35C9045E-4B3F-62AF-941A-9CB1A97F8FB5" name="Reviews PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 17:09:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F9BE2D5-693C-AB30-6A7C-CCB33F309D16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
