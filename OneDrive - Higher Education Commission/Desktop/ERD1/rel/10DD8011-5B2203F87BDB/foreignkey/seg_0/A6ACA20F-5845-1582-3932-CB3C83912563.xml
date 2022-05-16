@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6ACA20F-5845-1582-3932-CB3C83912563" containerWithKeyObject="6D847012-839E-CE4A-FF70-2C7442D47757" localFKIndex="025F39F1-BB89-68EB-E299-D6D52338BAEC" name="Rating_Drama_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>D94201E3-8181-DEAB-8709-2C48B02F0FAD</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<referredTableLongName>Drama</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F4E543C-87A4-71D4-1351-D020C00A2F57</referredTableID>
+<keyObject>A25EEE68-2841-62FB-91B9-81B800597356</keyObject>
+<referredKeyID>A25EEE68-2841-62FB-91B9-81B800597356</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dramaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D847012-839E-CE4A-FF70-2C7442D47757" name="Rating">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>29EAB7FB-4F6C-C6A6-2BCB-4DF21459EBBC</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="stars" id="17D0FE42-1106-963A-048E-37F99DD0E971">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>9A90BF15-8BD3-D51A-EB2F-0A33B4AF08C7</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ratingDate" id="493A2B39-65DB-F5C5-9893-C791E525E818">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>DD1F9094-30C7-D717-1740-4625A4E4C40E</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drama_dramaID" id="0B3ED8AE-47F0-27C7-9676-A5EC91A81681">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>90D2E3D6-4311-7020-9251-DC615BE368DD</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6ACA20F-5845-1582-3932-CB3C83912563" referredColumn="F6C21549-7316-5FB6-41B8-27AF2F6D7E5F"/>
+</associations>
+</Column>
+<Column name="Reviewer_reviewID" id="0A32AEB5-E796-EC33-0410-22C5BB7EC437">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>758CE1F8-FB0D-FD62-32DD-E2DAD990AFE2</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20C18761-147A-4EE6-6EE1-24229D6B3E35" referredColumn="787F4D3B-8292-A389-4AE1-E62A8BA4D8C5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4BDE22C-2366-B0CA-BDE4-D44EF9A94B8F" name="Rating_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>52C5C92E-A3B9-09C9-E2A5-89D8AFAFF971</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17D0FE42-1106-963A-048E-37F99DD0E971"/>
+<colUsage columnID="0B3ED8AE-47F0-27C7-9676-A5EC91A81681"/>
+<colUsage columnID="0A32AEB5-E796-EC33-0410-22C5BB7EC437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CF4F137-A37C-9EE3-334C-FB8D016CDE6E" name="Rating_Reviewer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>E9222D71-5903-9E28-A2FD-4BF203F664FF</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A32AEB5-E796-EC33-0410-22C5BB7EC437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="025F39F1-BB89-68EB-E299-D6D52338BAEC" name="Rating_Drama_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-16 19:16:44 UTC</createdTime>
+<generatorID>D94201E3-8181-DEAB-8709-2C48B02F0FAD</generatorID>
+<ownerDesignName>ERD1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B3ED8AE-47F0-27C7-9676-A5EC91A81681"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
