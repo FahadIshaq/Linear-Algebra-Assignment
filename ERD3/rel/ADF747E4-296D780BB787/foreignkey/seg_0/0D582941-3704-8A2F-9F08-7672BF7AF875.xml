@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D582941-3704-8A2F-9F08-7672BF7AF875" containerWithKeyObject="94955372-BF09-77BE-2591-47F96690237E" localFKIndex="0D74254D-7953-5762-EF54-3D4522D513EC" name="Eats_person_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>85C093F7-E912-A0CB-0E44-CCEFEE771FAA</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<referredTableLongName>person</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BB60AA42-23F2-41D5-F1AD-F20F9C7EE9E9</referredTableID>
+<keyObject>E9C79653-6E58-14B5-1E59-A134C9A570AF</keyObject>
+<referredKeyID>E9C79653-6E58-14B5-1E59-A134C9A570AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

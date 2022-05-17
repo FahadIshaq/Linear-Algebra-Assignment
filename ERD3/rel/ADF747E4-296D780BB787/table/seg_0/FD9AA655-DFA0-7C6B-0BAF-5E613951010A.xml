@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD9AA655-DFA0-7C6B-0BAF-5E613951010A" name="visits">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="person_name" id="63416B36-8364-933F-80CC-C36E15BB4E26">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E8ACF11-115B-4E9D-9D9A-08ED0943B622" referredColumn="AC0B37DD-B408-2E03-136E-5C43FFE042E0"/>
+</associations>
+</Column>
+<Column name="Restaurant_restaurant" id="46B988FB-440E-C848-84ED-9080192A17CD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D46FB06-8921-4548-2522-FCE070E78BC2" referredColumn="8C07BE73-C9EC-D38D-7DC3-28700326A582"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4A24E2C-F89E-381B-C229-859ED4176995" name="visits_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63416B36-8364-933F-80CC-C36E15BB4E26"/>
+<colUsage columnID="46B988FB-440E-C848-84ED-9080192A17CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DC8721C-A8AF-1346-70F1-6A5E4BEE3B65" name="visits_person_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>740CB5D1-DA87-34AD-5D03-0FBEB78CEAE4</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63416B36-8364-933F-80CC-C36E15BB4E26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68C462EA-84AC-0AE4-F688-28E92848885D" name="visits_Restaurant_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>740CB5D1-DA87-34AD-5D03-0FBEB78CEAE4</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46B988FB-440E-C848-84ED-9080192A17CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

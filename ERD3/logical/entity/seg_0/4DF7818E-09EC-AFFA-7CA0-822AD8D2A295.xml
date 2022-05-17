@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DF7818E-09EC-AFFA-7CA0-822AD8D2A295" name="person">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:19:15 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="21CA7DC6-2273-E645-968C-96E076395FD6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:19:25 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="age" id="430BC704-D821-E836-8BAF-A50C9848FA92">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:20:09 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gender" id="C8300531-41D9-84CD-CB9B-31D6C085664B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:20:31 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67D0D23D-554B-97F2-E02B-030A7728F44A" name="person PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:20:08 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21CA7DC6-2273-E645-968C-96E076395FD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

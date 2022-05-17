@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B939BA06-7719-9F73-D58D-B69B09352B02" name="Pizza">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>8A29E5AE-9460-EC86-9B6E-6DEE50FE44B3</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pizza" id="B5BFC402-E37D-36BD-C36A-846DA55C00BF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>240EAF29-DC12-EA18-164F-76A5F71D0F56</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="66B88A2F-B4A7-BEDC-169B-3898FC7D28C9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>16F8EE23-AADE-9192-8DBC-413E31A42805</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="344DA892-8D92-9916-0FDD-FB370E03D6F0" name="Pizza_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:29:47 UTC</createdTime>
+<generatorID>955D6198-D5BB-9DC0-1177-71D373170776</generatorID>
+<ownerDesignName>ERD3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5BFC402-E37D-36BD-C36A-846DA55C00BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

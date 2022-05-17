@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Serves" directorySegmentName="seg_0" id="1F6621A9-9D6A-2D7E-4EC2-2179CD92FC80">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:26:50 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>ECB0B3D5-7274-CE93-9FDB-22B3DF046AF5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A29E5AE-9460-EC86-9B6E-6DEE50FE44B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="price" id="517962EE-8C0A-361A-62D3-E20E7CB2D4B2">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:27:24 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="visits" directorySegmentName="seg_0" id="740CB5D1-DA87-34AD-5D03-0FBEB78CEAE4">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:25:58 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4DF7818E-09EC-AFFA-7CA0-822AD8D2A295</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ECB0B3D5-7274-CE93-9FDB-22B3DF046AF5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

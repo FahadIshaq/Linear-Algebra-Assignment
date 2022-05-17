@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ECB0B3D5-7274-CE93-9FDB-22B3DF046AF5" name="Restaurant">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:21:28 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="restaurant" id="33CC01A8-140A-65B8-6D4D-E08E86E7F3AC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:23:02 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="348D4E79-CE44-C92B-876E-BEF6323B6078">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:23:25 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="29E80262-0471-879B-6005-599FE8E62B3A" name="Restaurant PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-17 04:23:24 UTC</createdTime>
+<ownerDesignName>ERD3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ADF747E4-9450-DD4F-871E-296D780BB787" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>33CC01A8-140A-65B8-6D4D-E08E86E7F3AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
