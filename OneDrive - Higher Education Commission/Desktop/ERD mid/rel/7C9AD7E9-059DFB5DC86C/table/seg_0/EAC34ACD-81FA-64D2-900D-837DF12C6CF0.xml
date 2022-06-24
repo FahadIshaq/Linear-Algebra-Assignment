@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAC34ACD-81FA-64D2-900D-837DF12C6CF0" name="trends">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>D73293FA-C53B-9113-A049-839420ECAD77</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="trend_id" id="69427B42-3690-B765-04B2-DC38904A37E1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>9846E10E-641D-3F3D-D570-30E3DB8727E5</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trend_hashtag" id="4A74A08D-2A38-4214-6901-3E7B927C4183">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>FC5ED0F1-8352-0B77-44EC-54B360432B3A</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="trend_post_count" id="3F6A6EEA-4156-5E23-89DA-99E87C4E1135">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>57BD4139-0D43-AA91-9AD7-9D382E25C15F</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tag_tag_id" id="08EFE9DC-4E5A-B65E-93BC-7D2540E8CCCC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>8C175A12-3147-3A38-3275-C536867D784A</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CEDE685-988D-39C7-F1F3-446D9F24315B" referredColumn="ACEF78AB-708A-CF3F-7E58-89CE28E2DA20"/>
+</associations>
+</Column>
+<Column name="tag_id" id="88915E38-A17D-B8B0-CF66-1513D4A6A825">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:27:31 UTC</createdTime>
+<generatorID>49D87D1B-C4CF-4B8E-E7D4-30C1E2A2B1DB</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1263B8DA-0CE6-D61A-0B20-9AEE668B93CF" name="trends_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>784DAA2A-AE0B-06B0-C8F5-6FB820DF5480</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69427B42-3690-B765-04B2-DC38904A37E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C378FF7-F1C0-87EA-8245-87C0F39F4076" name="trends__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0390CD32-2EA4-C5C2-F848-10CC2CAE34F4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="08EFE9DC-4E5A-B65E-93BC-7D2540E8CCCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B45ED272-4478-17C3-4546-21A8FD1DF684" name="trends_tag_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>0390CD32-2EA4-C5C2-F848-10CC2CAE34F4</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08EFE9DC-4E5A-B65E-93BC-7D2540E8CCCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

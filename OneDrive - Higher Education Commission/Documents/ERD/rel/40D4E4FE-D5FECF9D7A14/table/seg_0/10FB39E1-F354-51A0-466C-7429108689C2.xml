@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10FB39E1-F354-51A0-466C-7429108689C2" name="Admin">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>BB7C258E-F73D-9C9A-080C-D2DDE6DC7F5D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Admin_Name" id="85174015-0AD2-549E-4044-42A15F22A2EE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>5922901B-785A-5A06-5006-CDCCE07B3A8C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNIC" id="A0786F80-C6F6-E3D2-F2A1-E3B3BEC18DA6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>9007B18A-A39F-79C3-B382-59499C91C1E2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ph_No" id="336E76C8-181F-4DAB-8844-468CA4235500">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>3816A95B-86A0-8B48-65D2-C9F4645CD647</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="03694AE9-C053-A738-597C-8F3227EE866E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>D4FD7FD4-596E-BEB2-A5D1-FB463CB4082C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="9C0783DA-8457-AA15-42B4-F5E404D9A52B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>267E79E9-4111-53BB-9C96-58B3C8C4190D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CA9745A-C9B0-D725-D5D2-E395A495C7B1" name="Admin_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>FEF79195-8651-09C7-3C5D-1F36841696FE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0786F80-C6F6-E3D2-F2A1-E3B3BEC18DA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

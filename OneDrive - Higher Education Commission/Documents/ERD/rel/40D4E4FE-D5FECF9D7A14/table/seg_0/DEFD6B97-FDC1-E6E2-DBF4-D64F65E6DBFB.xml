@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEFD6B97-FDC1-E6E2-DBF4-D64F65E6DBFB" name="book">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Room_room_id" id="DBC89C82-E85D-860C-0FF5-C6F260CBB4A6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91E340A8-D105-5E05-B9F0-2BF7054686F1" referredColumn="A1E3D74E-652A-4F69-AD1C-0B1E2D02874D"/>
+</associations>
+</Column>
+<Column name="customer_cust_id" id="EC07BF05-F5A6-0BF0-65B5-DD7E45BE8AD3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F82715A7-3044-157D-805E-70A7DB11C545" referredColumn="1354D0C6-2D96-3594-2CF6-19F06D19429A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D8AE815-2205-2B2C-19EA-7A9E22DA068C" name="book_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC89C82-E85D-860C-0FF5-C6F260CBB4A6"/>
+<colUsage columnID="EC07BF05-F5A6-0BF0-65B5-DD7E45BE8AD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2983CB3E-2255-70F0-C51E-0E80E109EE43" name="book_Room_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<generatorID>A16C83E7-AA89-E11F-520C-6C1E9BEE7862</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBC89C82-E85D-860C-0FF5-C6F260CBB4A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6187A1D9-E043-4FA4-8357-939D8C9DEDCE" name="book_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 18:01:29 UTC</createdTime>
+<generatorID>A16C83E7-AA89-E11F-520C-6C1E9BEE7862</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC07BF05-F5A6-0BF0-65B5-DD7E45BE8AD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

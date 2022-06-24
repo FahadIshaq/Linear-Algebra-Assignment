@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EBFA6228-19FC-7ABA-F3B2-64E363EB9EBC" name="comments">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:13:27 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="comment_id" id="B27321A5-5A23-32F5-613D-341E87B83126">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:13:37 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_text" id="12D3A240-1C20-C4D6-D391-80FC984CAD4B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:14:05 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_updated" id="E03BBD3E-20A9-0FCC-E77E-003C6BFDFD99">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:14:41 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_date" id="22E41A54-FAA8-0BE2-2F7E-EDA66C99343D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:14:59 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tweet_id" id="D2C095EA-0F4D-7F38-60C1-BA2EF97C38B8">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 06:27:32 UTC</createdTime>
+<generatorID>A2DA7DC6-BAA6-402F-53A3-A733510C5857</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<referedAttribute>6D7DFAFC-14F6-C776-78A7-F6F23AECC800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="26C82AA6-CCEE-5E27-8565-456920A3310B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 07:40:42 UTC</createdTime>
+<generatorID>A78D838D-6616-5512-1E36-0EB21A4E2E62</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<referedAttribute>74CE6103-449D-9036-CB19-78D65A70B8B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AB803AA-58D7-69AD-C1D0-5A44825E36F3" name="comments PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:14:04 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B27321A5-5A23-32F5-613D-341E87B83126</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

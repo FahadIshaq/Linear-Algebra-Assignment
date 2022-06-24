@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2936F396-A583-86B0-B948-FE60F169B8CB" name="Payment">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>28041B00-6535-154A-793A-64F878E715EE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pay_id" id="56F085CD-1421-A1F0-B386-2085C4F4DA7E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>65C0A307-F728-0F84-D190-B34288DB3BCA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pay_method" id="02BC005C-534B-0A9B-E69D-D64D447B7ED0">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>1AB03F7E-5CF9-4C98-610C-2857910053E5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pay_date" id="0E509DF2-D76B-EEB9-A7D8-A2B8B595C308">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>690D5D4E-62AD-F031-08B9-A6A050F3ED52</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pay_price_paid" id="4865959E-1049-6414-B323-D74AA60618BE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>A681D4F1-F4AB-B6B1-F46C-78FE2E054E3A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservations_res_id" id="42A4A7C5-A211-012B-1532-1FBFAB378DA9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>D4EE8287-FDBE-B2C2-24C6-12B1FFEEFFE1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5326FAF-511F-97DE-66C5-9DE8874F4880" referredColumn="9354AD0D-9D9C-BE9C-AF4D-8F8F482DD8D7"/>
+</associations>
+</Column>
+<Column name="customer_cust_id" id="79C24E82-C7B6-474C-9796-0E5A508E97A4">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>DD8756B9-4C41-44EF-4C12-32D70200166F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C8B2D30-792A-408F-5905-8AFA6EC51572" referredColumn="8A0CD833-A070-CE1D-3203-DF1D030B540E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A7576A2-CB04-9407-D0D9-9DAD5F105BF0" name="Payment_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>2CA64349-E757-97FA-D3FB-AD27D3ABED1F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F085CD-1421-A1F0-B386-2085C4F4DA7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E7EA644-34EA-51EC-BBCD-FF6CA003BAC9" name="Payment_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>E62F8FFA-FDC1-E287-AC64-6EB5E913B466</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42A4A7C5-A211-012B-1532-1FBFAB378DA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2831D4C-EC66-C18F-F03B-8B2E4710A8F6" name="Payment_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>0CAE416E-5DB7-4CA1-1EA0-5ABA5A57A12F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79C24E82-C7B6-474C-9796-0E5A508E97A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="924C5A90-3E4C-FCA0-3944-E12D369A262A" name="comments">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>EBFA6228-19FC-7ABA-F3B2-64E363EB9EBC</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="comment_id" id="06A3F5F1-DAD3-E827-149F-90AB6A2AE2EF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>B27321A5-5A23-32F5-613D-341E87B83126</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_text" id="B79F3B50-D249-4493-EF7F-BD3C13C5F91E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>12D3A240-1C20-C4D6-D391-80FC984CAD4B</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_updated" id="1A287E61-A6F6-D8C4-C4FA-5D932AB898BD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>E03BBD3E-20A9-0FCC-E77E-003C6BFDFD99</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_date" id="13F52C03-D024-39EE-579A-F8D202E7FE40">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>22E41A54-FAA8-0BE2-2F7E-EDA66C99343D</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tweet_tweet_id" id="721C74ED-75B0-A219-F8A7-45ED93716AEF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>D2C095EA-0F4D-7F38-60C1-BA2EF97C38B8</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EB3BCFA-62D6-AE90-8919-42D3A7E43C55" referredColumn="0BA84046-731E-95A7-339D-805B81BF7752"/>
+</associations>
+</Column>
+<Column name="user_user_id" id="7D714960-93AA-F904-F825-1639E1CAD495">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>26C82AA6-CCEE-5E27-8565-456920A3310B</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42778AA8-AB36-DC34-3990-C9CDAB08FC49" referredColumn="902E477F-7369-21CD-8863-79B4AA86331C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F698730-F325-2514-2621-317C80B9D8E0" name="comments_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>1AB803AA-58D7-69AD-C1D0-5A44825E36F3</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06A3F5F1-DAD3-E827-149F-90AB6A2AE2EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CED949B-46BC-ACA5-0F63-8EC6973F4E34" name="comments_tweet_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>A2DA7DC6-BAA6-402F-53A3-A733510C5857</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="721C74ED-75B0-A219-F8A7-45ED93716AEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E8D8D6C-76C9-1ADB-8188-07F1EDFC3D4D" name="comments_user_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>A78D838D-6616-5512-1E36-0EB21A4E2E62</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D714960-93AA-F904-F825-1639E1CAD495"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

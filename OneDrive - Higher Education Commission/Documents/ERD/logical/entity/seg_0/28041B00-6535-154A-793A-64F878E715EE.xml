@@ -63,6 +63,34 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="res_id" id="D4EE8287-FDBE-B2C2-24C6-12B1FFEEFFE1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 08:12:26 UTC</createdTime>
+<generatorID>E62F8FFA-FDC1-E287-AC64-6EB5E913B466</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>12CA68B9-6545-44D8-3016-9CD3E996C78E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_id" id="DD8756B9-4C41-44EF-4C12-32D70200166F">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:02:15 UTC</createdTime>
+<generatorID>0CAE416E-5DB7-4CA1-1EA0-5ABA5A57A12F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>B15D2BA8-648C-4DD6-9936-BD203E4FBDE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

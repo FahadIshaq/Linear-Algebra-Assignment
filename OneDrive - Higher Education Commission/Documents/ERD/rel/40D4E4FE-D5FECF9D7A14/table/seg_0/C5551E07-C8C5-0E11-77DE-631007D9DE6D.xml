@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5551E07-C8C5-0E11-77DE-631007D9DE6D" name="Laundry">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>73185919-B066-EFA7-D6B5-CDC17BD47C56</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="laundry_id" id="7978E20C-29E3-1DB2-E0AF-733ADD0BBAAB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>32F6EAA4-BA5C-4151-F003-411F0F7647F8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laundry_pieces" id="2CB20E20-78F6-8557-703E-CB91DF7AF58B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>1F57A3B9-1BF8-00F8-E35A-EDBD177904B5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laundry_price" id="C3713210-FF3A-A33F-84F3-61936E6F9020">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>F3DD38A6-BB3A-0F22-6287-A8D0836F4752</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="03B9A60E-C8BC-DA39-4016-0AAD00F843FA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>89ABBE59-A2BB-42C9-3FB9-D65BE407D5D0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D059C5FA-515F-E68C-8064-C860F7EB44FA" referredColumn="F682D05E-EFA7-E92A-04C2-E4DCB48BC7BD"/>
+</associations>
+</Column>
+<Column name="Reservations_res_id" id="10B5BC53-6FD0-F2BD-AB08-3DFE006978C1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>FEF6298F-4E86-804A-4ED9-B2FA427C53AC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49FE0866-5EEC-4C33-4176-F80D4F207333" referredColumn="2803D9C5-8A99-577B-CEF8-D0CAB73380D8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="465458FB-959E-A94A-1838-3B8F642F2EAB" name="Laundry_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>C90CF72E-0608-F756-5F1F-97EDA49AD929</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7978E20C-29E3-1DB2-E0AF-733ADD0BBAAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7B57889-750E-8E62-F13A-0D604C64237A" name="Laundry_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>00A7FA4D-CE56-3B17-F14E-72CC5AAB3AE1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03B9A60E-C8BC-DA39-4016-0AAD00F843FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A1BC6EC-E60D-4931-BF02-6BA54556DECD" name="Laundry_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>7DD981A6-BEB6-CCED-5C52-4956C87B2DE1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10B5BC53-6FD0-F2BD-AB08-3DFE006978C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

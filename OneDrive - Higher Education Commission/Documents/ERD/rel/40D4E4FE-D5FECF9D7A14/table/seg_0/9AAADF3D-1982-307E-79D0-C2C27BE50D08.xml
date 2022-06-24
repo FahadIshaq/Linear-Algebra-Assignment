@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AAADF3D-1982-307E-79D0-C2C27BE50D08" name="customer">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>C490DC64-F7FB-F77C-7026-5812547170EF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_id" id="8A0CD833-A070-CE1D-3203-DF1D030B540E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>B15D2BA8-648C-4DD6-9936-BD203E4FBDE2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_cnic" id="D9E11C42-35A9-AF5C-CFAE-EEC40B3A02BC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>8705E176-78A9-8210-E8F3-19F072133663</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_name" id="D3262B0F-3089-B198-4914-ABF3FEEE0CB9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>19D26BE9-EA1E-6CBC-6A60-678B35816B0E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_address" id="A841E01E-2CD4-75C7-A85F-9940F488DC0B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>DDEF971B-6A56-FB66-D925-3EB5AEA1A795</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_phone_number" id="6E799F2A-9A84-947A-ADF6-ADA2BB5DE2D8">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>A24C83F8-A340-91EA-3D83-9A3F038C619B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="B61E734D-4691-8A22-90E3-3A41031CE43E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>43D3D4E0-7347-7C01-99DC-D46DA7F02AA3</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="B010EA6E-4138-2241-B6D6-0C5DE2A24FDD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>D2A32379-B41A-72C2-97B9-8027BCFC018F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_gender" id="BEE86945-0E76-3C96-C475-863AA83C2967">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>677D6D41-A43E-1760-8370-30E557051B5E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26E21D34-4CEA-37F3-7B73-50EF226254DC" name="customer_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>C1EEAB56-9714-5932-33C7-5112F03E1C91</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A0CD833-A070-CE1D-3203-DF1D030B540E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

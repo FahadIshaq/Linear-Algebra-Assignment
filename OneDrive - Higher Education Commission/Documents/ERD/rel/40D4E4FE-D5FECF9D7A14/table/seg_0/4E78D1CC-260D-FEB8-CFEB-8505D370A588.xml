@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E78D1CC-260D-FEB8-CFEB-8505D370A588" name="Salaryv1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>28A35ED5-3291-A153-BF8C-C87ACDB6A781</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="slip_id" id="3CE01FFF-354A-816D-D740-349D3B4E47A2">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>067D0E02-7A76-5C12-2BE3-3AB426C4589E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_date" id="4C6B79D2-3B5D-2CE4-C7DC-F4CFD8BD14EF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>FBA2C99E-6394-4BFD-D889-7B81BD4372A7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_paid" id="8F7D585C-75B8-78A0-7413-5144AC318C68">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>5601E98E-AF00-2440-6D78-C675452D5F60</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_pending" id="0024A4DF-5839-2011-061F-A4DB5DF9982B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>82D254E9-017A-B7B4-90CA-315412240AEA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_emp_id" id="4E1F9B73-9D21-4A22-D7C0-9F7F0A4F65B6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>17595BF6-9B9F-4707-3B73-059636924A2F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C108D98-4A25-2D29-F8A7-6A96826BEC2A" referredColumn="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</associations>
+</Column>
+<Column name="Staff_emp_id" id="A77F256C-799F-2B52-DFA2-E3A82E8488E0">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<generatorID>10F965C1-65C1-FBEF-54C0-A3A3A221B7D0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6FCF451-0977-919F-8829-F5E1DD14B49F" referredColumn="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BB07912-1A12-5371-43D5-7706A4ADE317" name="Salaryv1_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>6C86846D-ABCC-6BEC-F843-DC2848C32B4D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CE01FFF-354A-816D-D740-349D3B4E47A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87F4E049-78A1-11FE-2B80-32215D445D5B" name="Salaryv2__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>60439925-725C-C646-209E-3212683991BE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A77F256C-799F-2B52-DFA2-E3A82E8488E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A584FD-81C8-61E9-9876-EFF56C696374" name="Salaryv2_Staff_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:45:37 UTC</createdTime>
+<generatorID>7E187AFE-F631-24EC-765E-17890072BFB5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E1F9B73-9D21-4A22-D7C0-9F7F0A4F65B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1844AFB4-CC3E-6F3F-A080-22E78754CF9D" name="Salaryv2_Staff_FKv1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<generatorID>60439925-725C-C646-209E-3212683991BE</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A77F256C-799F-2B52-DFA2-E3A82E8488E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

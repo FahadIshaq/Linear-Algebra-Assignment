@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="635EC711-572A-B163-A6D9-ED72AC1E1203" name="Event">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>5E035485-2B3B-860E-FC9E-55928563716C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="event_id" id="3C23C215-7DD0-E02D-3D69-78B1D2170646">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>C9CEA6F9-EE70-28AF-C3A7-E356062B936B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_name" id="A3B2E088-0816-F5E9-53FC-4506362D8B6A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>409011F2-9A64-4BE4-E711-3F4B5D2363F2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_description" id="8D69697F-67AB-3B36-BB68-170CA73C88A7">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>596D2436-FF9E-063F-0588-1D6945F41ADF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="event_date" id="64757623-E8D5-F19E-DD36-4F7566B28BFC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>588293D9-ABD0-CABC-2ECD-FEC630380281</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="056BCA66-2BF0-B64A-902D-371FC945C747">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>D0273E83-3F69-7EC0-53E0-D1CC0A3B06B1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7EE2585-03FE-4B9D-13B4-B941B9C53D31" referredColumn="E5231324-644D-D673-DFFF-AC0F7599D917"/>
+</associations>
+</Column>
+<Column name="Receptionist_rep_id" id="9309B3EE-55C6-B08A-CAEE-FAB58E12A17E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>9677DF1C-EF3B-D50C-326D-6A04DDA6AF23</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2241AAD6-6427-F030-EBD0-003543B043B3" referredColumn="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</associations>
+</Column>
+<Column name="event_type" id="355C0922-DEA2-6156-7E3A-7564073CBDEC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>1D0FB067-8DC4-01CE-6A00-2EC934BE5A26</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D4441D1-8BE1-435D-B580-E6336CA55FAB" name="Event_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>00B85C35-9C04-94D8-3D7B-6FED1EECC3DF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C23C215-7DD0-E02D-3D69-78B1D2170646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF84F7C7-AA4A-BDE0-66B6-9AAF13231F8B" name="Event_Receptionist_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:38 UTC</createdTime>
+<generatorID>A43735D9-D7E4-BFB0-BAD9-DC81942E3FF9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9309B3EE-55C6-B08A-CAEE-FAB58E12A17E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68A3D449-389C-4DA6-8097-B80C53333257" name="Event_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:38 UTC</createdTime>
+<generatorID>B9AB6B67-BDFE-B1A1-E968-9EA1E13DB7BC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="056BCA66-2BF0-B64A-902D-371FC945C747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

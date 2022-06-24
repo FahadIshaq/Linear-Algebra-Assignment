@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92DBB3B1-3398-DD84-9245-41EB5901AAB8" name="Reviews">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>E6A4552B-B6C0-9EFC-4B16-58C5ABFEB271</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="review_id" id="D3B574AF-49CF-E275-2C32-96E29F2AA1D8">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>1F9BE2D5-693C-AB30-6A7C-CCB33F309D16</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review" id="FBD3439B-D75D-7C4F-579D-549A5F268DBF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>8F16903C-41CA-7A4B-92C3-0DEEACDA380E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="review_date" id="853C7087-4DB8-6A81-0825-655D6710F323">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>DB2711E7-DF70-2408-F5D8-A44F1A91C3BD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="30D3FD2C-5C2F-0603-A32F-CD31847AED0A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>93063FAA-1AF3-706F-74F5-62036D09F74E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA5D456-A12D-D631-559D-33A137899634" referredColumn="8A0CD833-A070-CE1D-3203-DF1D030B540E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89A665FC-A131-7006-EDBF-612408C2B209" name="Reviews_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>35C9045E-4B3F-62AF-941A-9CB1A97F8FB5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B574AF-49CF-E275-2C32-96E29F2AA1D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="206BB58B-E0BC-2A01-C798-46E4BD64514C" name="Reviews_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>0FAA793B-3315-79A7-1934-6CB0BEFC4C8E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30D3FD2C-5C2F-0603-A32F-CD31847AED0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

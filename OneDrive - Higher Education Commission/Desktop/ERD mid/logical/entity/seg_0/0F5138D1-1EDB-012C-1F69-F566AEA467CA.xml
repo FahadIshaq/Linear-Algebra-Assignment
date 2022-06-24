@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F5138D1-1EDB-012C-1F69-F566AEA467CA" name="tweet">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 19:58:57 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tweet_id" id="6D7DFAFC-14F6-C776-78A7-F6F23AECC800">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 19:59:03 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="view_count" id="5E63FE54-3573-0B60-1E28-C73B48ED6650">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:07:33 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="video_length" id="F396E969-3A7C-4AC5-7C1C-8E54723A3219">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:11:02 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="post_date" id="1566C29E-579B-ADE0-8B8F-3B96E03385D1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:11:27 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="4277CF8C-FF7D-D054-08D7-2A46DB008BC9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:12:06 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="likes_count" id="5A635EBD-794E-657D-56B3-D99AD1C86ACF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:12:26 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comment_count" id="16829317-EBEE-123F-8A66-CF032EDCA1FB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:12:40 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_id" id="1620B5EA-48C5-3181-E4C9-6B6A9AC03CBD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 07:40:42 UTC</createdTime>
+<generatorID>8C6EE2D5-8912-CE50-933A-8B2F81D7C20D</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<referedAttribute>74CE6103-449D-9036-CB19-78D65A70B8B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="share_count" id="E07667E7-F27C-1ECE-F8DF-502FB016BEA0">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 09:10:58 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96863414-6831-C79A-FE77-54DD57BE4F23" name="tweet PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-21 20:00:47 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D7DFAFC-14F6-C776-78A7-F6F23AECC800</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

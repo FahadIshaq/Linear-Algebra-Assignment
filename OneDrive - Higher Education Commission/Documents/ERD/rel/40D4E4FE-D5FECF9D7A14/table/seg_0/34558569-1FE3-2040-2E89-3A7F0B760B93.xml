@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34558569-1FE3-2040-2E89-3A7F0B760B93" name="Salary">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>28A35ED5-3291-A153-BF8C-C87ACDB6A781</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="slip_id" id="D9FC4AE2-3219-80A9-67C2-0C2905EB33EC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>067D0E02-7A76-5C12-2BE3-3AB426C4589E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_date" id="EF164A6E-F82E-259C-DFBB-E9118076A9AE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>FBA2C99E-6394-4BFD-D889-7B81BD4372A7</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_paid" id="587245D2-B668-B765-0F2C-E89EA5D2279E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>5601E98E-AF00-2440-6D78-C675452D5F60</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="slip_pending" id="520D6FF9-D779-5F6E-F394-7BBB4071D84B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>82D254E9-017A-B7B4-90CA-315412240AEA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2ACD249-844B-B646-A82D-27E4BBD84BD4" name="Salary_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>6C86846D-ABCC-6BEC-F843-DC2848C32B4D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9FC4AE2-3219-80A9-67C2-0C2905EB33EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

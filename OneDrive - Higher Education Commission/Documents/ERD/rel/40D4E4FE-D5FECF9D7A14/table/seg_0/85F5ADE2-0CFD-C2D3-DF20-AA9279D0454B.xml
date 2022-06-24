@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85F5ADE2-0CFD-C2D3-DF20-AA9279D0454B" name="Staff">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>F77B3037-1641-0ACC-07E8-A6661F3DDB64</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="emp_id" id="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>3F0D8919-1D17-7D90-D1EF-5714A88FDD6A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_name" id="976AE94E-2318-0DAB-17A3-860DFD991C2D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>432301D0-D234-6034-51F8-DC8920302175</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_address" id="DC7C2C27-815E-D23B-5BA9-69DE6E0EBF0E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>FA434EAA-042D-26A3-B874-02E948933815</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_salary" id="CD7C556E-E85A-1466-B6AF-8251CE6873A7">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>823039F0-375C-8889-C2BA-9404B722688F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_gender" id="451917F9-7E62-D75E-90FD-6FE1230FF9AE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>A9726B6D-64CE-2FA8-9BB5-7BE84ABE2AEB</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="emp_contact" id="C924FCBC-F561-5043-AFB6-201E8CE268D8">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>71DC1753-E839-E6FC-EE8A-C0BA23E8401C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_ad_cnic" id="1889C8C9-1F5F-50D5-CBEA-7424525536EA">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>BCEA7CF6-4A21-A78D-E55F-524BCC5AF569</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CEEC407-E0DE-17D8-2716-6F8D9F1BF76B" referredColumn="901E60B8-667F-21C7-A4CD-72061EF40640"/>
+</associations>
+</Column>
+<Column name="Admin_ad_cnic2" id="89CB0108-740C-3C16-88DA-18071277E1D9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:53:05 UTC</createdTime>
+<generatorID>080CD11A-1034-343E-40D0-E95F29DDBB70</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A69B6926-7D74-9F51-4930-0D2DCB327406" referredColumn="901E60B8-667F-21C7-A4CD-72061EF40640"/>
+</associations>
+</Column>
+<Column name="emp_type" id="9D5F26DF-2007-F6B3-09F5-5D23ADDE9B0C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 04:29:40 UTC</createdTime>
+<generatorID>13887A88-A020-5B75-AF63-D6E8BEBC713E</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EDBAD40-9D00-0730-DC1E-ED10323BE879" name="Receptionist_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>C8051D53-5D35-6069-E680-F43ED86EADAC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED332BE1-D00C-8DB6-D7D1-DB2A78616947" name="Staff_Admin_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>A0F1F4A5-7466-E9F7-B142-A2B5B1855E64</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1889C8C9-1F5F-50D5-CBEA-7424525536EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD25AA31-7285-0442-4167-36F31ECC331A" name="Staff_Admin_FKv2">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:53:05 UTC</createdTime>
+<generatorID>658AAD05-0A04-8037-6394-CDDD3C433C01</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89CB0108-740C-3C16-88DA-18071277E1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F77B3037-1641-0ACC-07E8-A6661F3DDB64" name="Receptionist">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F77B3037-1641-0ACC-07E8-A6661F3DDB64" name="Staff">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:22:01 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="rep_id" id="3F0D8919-1D17-7D90-D1EF-5714A88FDD6A">
+<Attribute name="emp_id" id="3F0D8919-1D17-7D90-D1EF-5714A88FDD6A">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:22:17 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="432301D0-D234-6034-51F8-DC8920302175">
+<Attribute name="emp_name" id="432301D0-D234-6034-51F8-DC8920302175">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:22:38 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -39,7 +39,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address" id="FA434EAA-042D-26A3-B874-02E948933815">
+<Attribute name="emp_address" id="FA434EAA-042D-26A3-B874-02E948933815">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:22:59 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -52,14 +52,132 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="emp_salary" id="823039F0-375C-8889-C2BA-9404B722688F">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:09:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_gender" id="A9726B6D-64CE-2FA8-9BB5-7BE84ABE2AEB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:12:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_contact" id="71DC1753-E839-E6FC-EE8A-C0BA23E8401C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:12:28 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_type" id="13887A88-A020-5B75-AF63-D6E8BEBC713E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 03:54:05 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_job" id="DC012B5A-F500-B57A-B4E1-EC306761BB2D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:19:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNIC" id="3D25B3D5-106C-C942-9CE6-A5E9F9B58EF5">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:02:34 UTC</createdTime>
+<generatorID>0AE76E7B-EE46-E067-3B07-49DCB45F6796</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>9007B18A-A39F-79C3-B382-59499C91C1E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_CNIC" id="F76C403D-0CCA-7A16-EBF6-EC054C46FEA3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:03:15 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_cnic" id="882360BF-8791-EC2B-915A-AE5C3DBE6E8D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 07:15:50 UTC</createdTime>
+<generatorID>658AAD05-0A04-8037-6394-CDDD3C433C01</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>B1ECA6B5-DCB4-413E-99DC-F7F326325363</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ad_cnic1" id="5EF8BB63-E77C-D2C6-7EAD-168D18ACB1FC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 07:15:50 UTC</createdTime>
+<generatorID>A0F1F4A5-7466-E9F7-B142-A2B5B1855E64</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<referedAttribute>B1ECA6B5-DCB4-413E-99DC-F7F326325363</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C8051D53-5D35-6069-E680-F43ED86EADAC" name="Receptionist PK">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:22:37 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

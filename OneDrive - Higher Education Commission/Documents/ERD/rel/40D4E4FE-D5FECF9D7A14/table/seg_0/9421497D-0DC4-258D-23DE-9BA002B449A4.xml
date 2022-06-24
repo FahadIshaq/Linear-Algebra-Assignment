@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9421497D-0DC4-258D-23DE-9BA002B449A4" name="manage">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_emp_id" id="8230AA0A-4FC9-743B-1041-6D0A4992DD4B">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="73EAFF9C-324A-E8BB-E0E8-A1A6B7AA30D4" referredColumn="31086CEC-51CD-D6A8-6F56-9067453C1D03"/>
+</associations>
+</Column>
+<Column name="customer_cust_id" id="DF03DDED-2526-5AE6-89A3-EFB52BDD61C5">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F93AF388-ACD3-898A-9565-BD22254C0380" referredColumn="8A0CD833-A070-CE1D-3203-DF1D030B540E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2AEAE0D-E71B-FB45-BFEB-DF554604810D" name="manage_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8230AA0A-4FC9-743B-1041-6D0A4992DD4B"/>
+<colUsage columnID="DF03DDED-2526-5AE6-89A3-EFB52BDD61C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25F8E7BE-942A-88DA-A66B-5E9ABE763E43" name="manage_Staff_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>E2CD084E-6016-9162-7A81-DAB471FEC936</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8230AA0A-4FC9-743B-1041-6D0A4992DD4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5ABEDCD0-8876-849F-1F54-3D0FF59A2B05" name="manage_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>E2CD084E-6016-9162-7A81-DAB471FEC936</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF03DDED-2526-5AE6-89A3-EFB52BDD61C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

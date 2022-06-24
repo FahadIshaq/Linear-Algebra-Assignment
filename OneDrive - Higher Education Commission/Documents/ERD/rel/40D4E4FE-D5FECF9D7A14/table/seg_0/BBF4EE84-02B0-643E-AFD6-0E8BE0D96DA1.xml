@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBF4EE84-02B0-643E-AFD6-0E8BE0D96DA1" name="Invoice">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>83FC0270-6DCE-F002-91C3-3E2AFC28D1AF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Invoice_Number" id="85B66AA7-AE78-1251-2526-BC77280AADFE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>AC747799-7452-616F-C240-B88F48634B8A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Invoice_Amount" id="60353400-6834-A350-1FDE-EEC6B69BE0A9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>68237D61-B2B8-5714-DD43-7BDE209F998C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Invoice_Date" id="449E9E6E-4DA8-53EF-D591-62D73CFA0C26">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>F3657EAE-D42E-4594-334C-47E2E7F96000</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="7E891910-C7EC-9F7D-1BEF-A6EF68EE64CB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>034F27CC-6CA0-5BE7-A535-322C3A7CC4E4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0EBF108-B635-97F3-E8F7-8DBFABB3B5E1" referredColumn="DBE44570-E0B7-9487-57CA-BAE187256295"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3BEFFC8F-8CB4-94A2-D1FF-1E667612A44E" name="Invoice_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>0B8D19CF-130F-EEF7-3FE1-78CC5423C9D9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85B66AA7-AE78-1251-2526-BC77280AADFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53525D88-6B53-4F1B-B126-448F6EC8F8EF" name="Invoice__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E891910-C7EC-9F7D-1BEF-A6EF68EE64CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FA59725-378C-14C2-813E-4E5C5D4482B2" name="Invoice_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:36:58 UTC</createdTime>
+<generatorID>309A552C-FE32-E25B-48B9-E46F34FBE53A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E891910-C7EC-9F7D-1BEF-A6EF68EE64CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

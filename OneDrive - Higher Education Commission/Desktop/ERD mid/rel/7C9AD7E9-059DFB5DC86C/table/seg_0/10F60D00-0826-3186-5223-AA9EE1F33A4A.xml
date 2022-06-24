@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10F60D00-0826-3186-5223-AA9EE1F33A4A" name="tweet">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>0F5138D1-1EDB-012C-1F69-F566AEA467CA</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tweet_id" id="8C125A25-5BBA-49B5-27C5-397C1BB43E61">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>6D7DFAFC-14F6-C776-78A7-F6F23AECC800</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="view_count" id="58FC807B-CA80-9EA8-8688-7A30EE4BF741">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>5E63FE54-3573-0B60-1E28-C73B48ED6650</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="video_length" id="10340E1E-BF93-7582-457A-37C017E1AD16">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>F396E969-3A7C-4AC5-7C1C-8E54723A3219</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="post_date" id="B139B067-67CE-F065-1EF1-2B6A5917F971">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>1566C29E-579B-ADE0-8B8F-3B96E03385D1</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="916F85C0-3B8E-71AC-0BCA-70833BECCB07">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>4277CF8C-FF7D-D054-08D7-2A46DB008BC9</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="likes_count" id="2BBAEDDD-0988-A606-76B9-9F592713B41D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>5A635EBD-794E-657D-56B3-D99AD1C86ACF</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment_count" id="9465424D-6417-6C77-BFAB-A02D3B33A401">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>16829317-EBEE-123F-8A66-CF032EDCA1FB</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_user_id" id="1342B939-F96D-CA8F-16DF-EA60356EFEDF">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>1620B5EA-48C5-3181-E4C9-6B6A9AC03CBD</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90FE369F-FEB6-D29B-7AA2-E1BE0D2A68C0" referredColumn="21C8BEE4-8B63-4E3C-D689-F4B0C991AD64"/>
+</associations>
+</Column>
+<Column name="share_count" id="16BBA87A-68C1-0B75-921C-3DA96C7FBCA4">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>E07667E7-F27C-1ECE-F8DF-502FB016BEA0</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A821614-80E6-A84F-3660-67E85EEF2D2C" name="tweet_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:38 UTC</createdTime>
+<generatorID>96863414-6831-C79A-FE77-54DD57BE4F23</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C125A25-5BBA-49B5-27C5-397C1BB43E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="68CF9B9B-E72F-6943-CD71-CAFADA21C30B" name="tweet_user_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<generatorID>8C6EE2D5-8912-CE50-933A-8B2F81D7C20D</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1342B939-F96D-CA8F-16DF-EA60356EFEDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

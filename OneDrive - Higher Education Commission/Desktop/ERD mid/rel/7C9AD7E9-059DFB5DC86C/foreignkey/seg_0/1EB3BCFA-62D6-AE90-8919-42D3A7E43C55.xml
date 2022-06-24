@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1EB3BCFA-62D6-AE90-8919-42D3A7E43C55" containerWithKeyObject="924C5A90-3E4C-FCA0-3944-E12D369A262A" localFKIndex="4CED949B-46BC-ACA5-0F63-8EC6973F4E34" name="comments_tweet_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>A2DA7DC6-BAA6-402F-53A3-A733510C5857</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<referredTableLongName>tweet</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8131D40E-112D-68B2-7FF2-ABE20267FBBE</referredTableID>
+<keyObject>1C195032-AB87-718F-9DDA-05126DA0C0DD</keyObject>
+<referredKeyID>1C195032-AB87-718F-9DDA-05126DA0C0DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tweet_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

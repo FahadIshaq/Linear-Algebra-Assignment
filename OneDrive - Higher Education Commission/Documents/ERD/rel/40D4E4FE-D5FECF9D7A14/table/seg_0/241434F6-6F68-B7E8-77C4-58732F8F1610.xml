@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="241434F6-6F68-B7E8-77C4-58732F8F1610" name="Laundry">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>73185919-B066-EFA7-D6B5-CDC17BD47C56</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Service_ID" id="E999B71C-5A2B-6F68-905A-6B89195A8412">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>704C465F-2796-880B-7056-90C163ADA013</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F15BB111-C649-77C7-36B1-057C4DB0F8D6" referredColumn="4F34F316-428E-177B-80AB-83C575ABA03C"/>
+</associations>
+</Column>
+<Column name="laundry_id" id="B6D111F0-2384-CD92-F000-1C3E0D34E4BD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>32F6EAA4-BA5C-4151-F003-411F0F7647F8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="laundry_pieces" id="3164C974-AEB8-D9B1-0AAE-48D5750AD22D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>1F57A3B9-1BF8-00F8-E35A-EDBD177904B5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Laundry_TYPE" id="64037467-AD20-5399-383A-397F094A8B50">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<constraintName>CH_INH_Laundry</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<listOfValues>
+<valueDef value="Laundry" description="entity Laundry"/>
+</listOfValues>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4071F62-095C-476F-B07F-8E74F8B1AB06" name="Laundry_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>C73C2CBF-4F9B-8E66-7DF7-1E3BD1B8B5B2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E999B71C-5A2B-6F68-905A-6B89195A8412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9BCBD8B-FA47-C987-53C5-4F2DEAB29FDB" name="Laundry_PKv1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>C90CF72E-0608-F756-5F1F-97EDA49AD929</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6D111F0-2384-CD92-F000-1C3E0D34E4BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C1A3E8B-C7A2-592B-E5D6-F15887C914A7" name="Laundry_Services_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>2DBB330F-E9C3-C209-9B1A-0FD117456277</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E999B71C-5A2B-6F68-905A-6B89195A8412"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

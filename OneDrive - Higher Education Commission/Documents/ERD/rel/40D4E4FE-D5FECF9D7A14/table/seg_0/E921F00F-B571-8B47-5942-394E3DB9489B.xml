@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E921F00F-B571-8B47-5942-394E3DB9489B" name="Job">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>A1F2A71A-664A-0662-83D6-8062FE8BA327</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="job_id" id="820FABD7-6194-C1A7-B87C-29440D6FE4C7">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>4775D043-6444-C094-EACA-AAE379E6B391</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_type" id="32794218-6747-A0B6-5759-E0A367C1B76C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>398BD557-DE75-D70D-573E-01C5B549D974</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_start_date" id="5C2B400C-598B-44F6-1F25-5B7DC591ED88">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>1E91AD8B-1EDC-E834-F49C-D750440626C2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_description" id="FD99B30D-22D1-B792-D145-8404F49A81EC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>9CB9CE4A-ACC5-DC85-9BA8-9B8EB163821F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Staff_emp_id" id="E8235661-ECAF-1833-42A3-337B954331A3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>06E7F16C-F281-BB4D-D4A9-DA28A243E38D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF37A5C8-F3BD-64BD-152C-E5B7C0627DF9" referredColumn="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</associations>
+</Column>
+<Column name="Staff_emp_id1" id="DDE512B6-B46E-7B3C-D5C2-C9AF915F3822">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<generatorID>36032737-DAE7-63FD-0A7F-2306A3B6E28F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="128B0664-AD95-C729-BEEB-3A4DB83E7CAD" referredColumn="BE15D3D2-F2A0-C15C-6094-8D7FDADD6E94"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5D9F585-E01E-1CE9-D28A-2AB5C1E3D56C" name="Job_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>793F88ED-A478-1AFE-EBB5-A2640B4E784D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="820FABD7-6194-C1A7-B87C-29440D6FE4C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="209B06FB-B257-4B81-6477-A3F4196DD42E" name="Job__IDX">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7EDEECAF-EA19-073F-181C-8A316E596A8D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DDE512B6-B46E-7B3C-D5C2-C9AF915F3822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D40B420-478F-2A9E-4B3D-50D333192819" name="Job_Staff_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-24 16:31:39 UTC</createdTime>
+<generatorID>14C8D9E5-72EB-F743-5117-7206BDA449B9</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8235661-ECAF-1833-42A3-337B954331A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E03C9788-02ED-DE5F-4A75-513DB9C4274A" name="Job_Staff_FKv1">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-26 08:59:03 UTC</createdTime>
+<generatorID>7EDEECAF-EA19-073F-181C-8A316E596A8D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE512B6-B46E-7B3C-D5C2-C9AF915F3822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -27,32 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="room_type" id="DAF274E9-45B3-0F9D-2632-DE064BAFECBD">
-<createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 16:43:00 UTC</createdTime>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="room_price" id="6FEF42E9-F67A-7C02-268F-11EF1BE0111B">
-<createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 17:01:49 UTC</createdTime>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="room_description" id="4F965C16-5670-C14B-DB2B-5B524A985BC4">
+<Attribute name="room_type" id="4F965C16-5670-C14B-DB2B-5B524A985BC4">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 17:02:12 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
@@ -65,10 +40,35 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cust_id" id="409F3B0A-B3B8-16F2-C31F-9302F8962092">
+<Attribute name="is_booked" id="0708EE05-9995-2225-DB69-B5ABFD63E9BA">
 <createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 17:42:27 UTC</createdTime>
-<generatorID>046540CE-4014-7F95-C87D-ACAC10B729B9</generatorID>
+<createdTime>2022-04-23 19:25:42 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="room_price" id="786B8898-6E51-CC8A-0AB5-C43B0479E9B3">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:32:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cust_id" id="CE6368EC-EFDA-40D0-FDF8-E4B65250D23C">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:00:15 UTC</createdTime>
+<generatorID>13C551FA-5D87-16BF-BAF9-3CF4AAA3B8D3</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
 <item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
@@ -85,8 +85,9 @@
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 16:42:58 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

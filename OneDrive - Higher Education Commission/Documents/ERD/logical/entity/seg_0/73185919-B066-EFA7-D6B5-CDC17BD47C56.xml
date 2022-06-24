@@ -11,9 +11,11 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>56AC26C8-B71F-E3BD-86AB-EB410F2973C2</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
 <Attribute name="laundry_id" id="32F6EAA4-BA5C-4151-F003-411F0F7647F8">
 <createdBy>FAHAD_ISHAQ</createdBy>
@@ -34,33 +36,6 @@
 <engineerTo>
 <item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="laundry_price" id="F3DD38A6-BB3A-0F22-6287-A8D0836F4752">
-<createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 17:19:06 UTC</createdTime>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cust_id" id="89ABBE59-A2BB-42C9-3FB9-D65BE407D5D0">
-<createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 18:45:48 UTC</createdTime>
-<generatorID>00A7FA4D-CE56-3B17-F14E-72CC5AAB3AE1</generatorID>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
-</engineerTo>
-<referedAttribute>B15D2BA8-648C-4DD6-9936-BD203E4FBDE2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

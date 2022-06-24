@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="book" directorySegmentName="seg_0" id="A16C83E7-AA89-E11F-520C-6C1E9BEE7862">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 08:11:37 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>80A3F04E-C2B2-369D-FF22-B42D21F49E8E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C490DC64-F7FB-F77C-7026-5812547170EF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

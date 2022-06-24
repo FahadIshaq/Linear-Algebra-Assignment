@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A1C176B-9EF0-8BE7-0B2B-683B2A7CD84D" name="Services">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>56AC26C8-B71F-E3BD-86AB-EB410F2973C2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Service_ID" id="3B161201-1B81-A965-2EED-82AA2422E5AE">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>704C465F-2796-880B-7056-90C163ADA013</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Service_Type" id="01A73BB1-3B16-231F-6F74-E19B4700777A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>52F482B4-9857-B5EC-E717-DFE526450C43</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="1AEF39EB-55DA-9BC8-06BF-0BFB8E816274">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>CCECB61F-1A2B-C54D-958D-8A953DAC9763</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FBE2FF1B-80FF-F962-9B53-711E4F89F6C3" referredColumn="8C553418-F3A5-EEFA-DA72-D39D3F2A020C"/>
+</associations>
+</Column>
+<Column name="Reservations_res_id" id="80B6B118-CA3B-6B77-BDF1-87A9B71C1527">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>3DD4B857-4E58-D7AD-C06B-68C76A121100</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92FEA9EF-DCF4-7DDB-298C-1BB7266FCF2C" referredColumn="D86B1780-F7EF-3D93-2273-A86E8D2ADCFE"/>
+</associations>
+</Column>
+<Column name="service_price" id="11AB8C05-A3F2-A37D-922A-88070E9267E6">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>FA3C72FF-189F-9F6A-63EC-B32F41472B12</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="406CFEB8-A913-3C2F-7B03-EC58F740DFB3" name="Services_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>C73C2CBF-4F9B-8E66-7DF7-1E3BD1B8B5B2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B161201-1B81-A965-2EED-82AA2422E5AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E508534-CDFC-3F72-8D8C-B3AD27B903C3" name="Services_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:05 UTC</createdTime>
+<generatorID>AAD31853-FC6E-1C21-0293-759D7AA93C8A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AEF39EB-55DA-9BC8-06BF-0BFB8E816274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6FBD9D-5BEF-E11D-8A05-66EFEE486F80" name="Services_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-31 14:05:06 UTC</createdTime>
+<generatorID>6ED46A67-DD8D-256F-A3D9-24EBE82483AA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80B6B118-CA3B-6B77-BDF1-87A9B71C1527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

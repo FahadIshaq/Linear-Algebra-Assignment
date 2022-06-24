@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="followers" directorySegmentName="seg_0" id="D02599E3-C4AE-9467-12B0-18675CB8A44D">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 07:19:24 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<engineerTo>
+<item key="7C9AD7E9-26C8-7A09-EA29-059DFB5DC86C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>81FC432D-EDF6-2E3B-C0FC-03C5CA7B5F25</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81FC432D-EDF6-2E3B-C0FC-03C5CA7B5F25</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

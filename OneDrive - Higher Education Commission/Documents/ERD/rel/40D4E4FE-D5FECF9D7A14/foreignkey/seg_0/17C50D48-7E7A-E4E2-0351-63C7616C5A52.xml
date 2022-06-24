@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="17C50D48-7E7A-E4E2-0351-63C7616C5A52" containerWithKeyObject="3AE2C92F-2DCA-97E8-1D34-1AEBDB580A7E" localFKIndex="225EA731-1E74-EE1C-68FB-9A4BE2D85EFB" name="Food_Services_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-06-04 08:09:17 UTC</createdTime>
+<generatorID>CEC38B3C-C0BE-4B7E-249E-34C0921414F5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Services</referredTableLongName>
+<arc>EBD609C3-57C5-93EE-137A-F3E93A7C62D3</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B71FBE8-8494-F59F-9A16-C8D6AB95EBE4</referredTableID>
+<keyObject>AAD5A75B-1B27-FD79-A53E-082EBCAB6444</keyObject>
+<referredKeyID>AAD5A75B-1B27-FD79-A53E-082EBCAB6444</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Service_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Food</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

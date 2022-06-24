@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49FE0866-5EEC-4C33-4176-F80D4F207333" containerWithKeyObject="C5551E07-C8C5-0E11-77DE-631007D9DE6D" localFKIndex="3A1BC6EC-E60D-4931-BF02-6BA54556DECD" name="Laundry_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 15:36:12 UTC</createdTime>
+<generatorID>7DD981A6-BEB6-CCED-5C52-4956C87B2DE1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Reservations</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D1CA1E4E-41D8-8756-2FEC-CF0B7D619C02</referredTableID>
+<keyObject>6889F6A7-CBC6-9FFB-BE44-301198228DDB</keyObject>
+<referredKeyID>6889F6A7-CBC6-9FFB-BE44-301198228DDB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>res_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

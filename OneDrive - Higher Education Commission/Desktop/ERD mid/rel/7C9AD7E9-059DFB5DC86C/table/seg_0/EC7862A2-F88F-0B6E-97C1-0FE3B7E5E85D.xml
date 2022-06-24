@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC7862A2-F88F-0B6E-97C1-0FE3B7E5E85D" name="follows">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_user_id" id="E066CD6C-3C58-46D5-5703-355BEE3E126E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9250E9EF-752E-F63B-6AA1-B945527B9506" referredColumn="21C8BEE4-8B63-4E3C-D689-F4B0C991AD64"/>
+</associations>
+</Column>
+<Column name="topic_topic_id" id="109C098D-2D18-41F2-83F7-1B04240731FC">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="875177EE-B155-7BD8-E7AA-88E4F4116E42" referredColumn="0B85EA2D-6A9E-2AF2-1C06-5FF8057370D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77C145F9-4F67-775A-9AE5-4699CF9FED9A" name="follows_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E066CD6C-3C58-46D5-5703-355BEE3E126E"/>
+<colUsage columnID="109C098D-2D18-41F2-83F7-1B04240731FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66EFEF57-EDCB-776C-A799-BDC8CF8A34D8" name="follows_user_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<generatorID>862CE4F2-8AF3-4B02-841F-62141AA8A86E</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E066CD6C-3C58-46D5-5703-355BEE3E126E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CDC06A0-F6A2-8AB4-7C33-2B5462354363" name="follows_topic_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 19:34:39 UTC</createdTime>
+<generatorID>862CE4F2-8AF3-4B02-841F-62141AA8A86E</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109C098D-2D18-41F2-83F7-1B04240731FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

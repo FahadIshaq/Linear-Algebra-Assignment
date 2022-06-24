@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE1074C0-562F-F87A-1895-1E32CC6805E8" name="Food">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>FC29BD86-7A56-6DFC-AD34-B0F2C196DC7D</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="food_id" id="61615610-31DB-1EE1-9D5E-D5804A434EBB">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>696FBE47-9CE2-2B88-6E7A-630D3CC39832</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="food_type" id="DEE183D5-A212-6D7F-EB21-31E12740FDF9">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>57278835-8247-57C4-2319-C0B0E1DDFF26</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="food_description" id="BAAAEB08-C10D-EEDD-AA62-0FEAF25DD675">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>DA7C8444-3F26-3054-7F3D-644FD2C1AE17</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="food_price" id="D0867E5C-8752-14BF-B633-AC589BF6FC9E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>C97A4656-3492-5643-CBFA-5D6741634D83</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_cust_id" id="6AAAC67E-9F2F-8464-D729-25F877D17E65">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>DB0DBCD2-2733-DFA7-03A8-557E043D69F0</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="503C5C23-1025-3C3B-A95B-6B6C01859F40" referredColumn="E5231324-644D-D673-DFFF-AC0F7599D917"/>
+</associations>
+</Column>
+<Column name="Reservations_res_id" id="CFB5A224-79EE-2B6B-2F95-CA30B4F81E2A">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 08:14:02 UTC</createdTime>
+<generatorID>68110F78-259B-E417-1FE7-643F912EA8AC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77D003FE-09A6-724A-27CF-8A6AD24AFC9B" referredColumn="A21A70C1-0702-2BB9-DE50-9811AC9FEBBF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46FFC492-60E1-067D-C827-11E19EEFC89B" name="Food_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:37 UTC</createdTime>
+<generatorID>D4764BAE-CEB3-7E4D-C612-7B04C841206F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61615610-31DB-1EE1-9D5E-D5804A434EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58186BED-AA29-7B8B-D38A-B77C04218D91" name="Food_customer_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-23 19:17:38 UTC</createdTime>
+<generatorID>52CB1D0B-09F4-637C-6B5F-049BCE5D57BC</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AAAC67E-9F2F-8464-D729-25F877D17E65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A31654E-082B-7CAB-F965-FF4A0DA88E54" name="Food_Reservations_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-04-25 08:14:02 UTC</createdTime>
+<generatorID>B1D14AC4-1BC8-2B4B-5E42-1D3AC2AD1B69</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB5A224-79EE-2B6B-2F95-CA30B4F81E2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

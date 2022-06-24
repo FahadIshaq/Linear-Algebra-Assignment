@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="618B5071-A821-7A63-0E9C-8D0882E345C5" name="followersv2">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 18:35:16 UTC</createdTime>
+<generatorID>F1ABA20F-2B44-5C48-F58F-81CD248CE29D</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="follower_id" id="6A6901D4-3EF2-68AC-A7EA-3A20759BB8DD">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 18:35:16 UTC</createdTime>
+<generatorID>41BF7FBB-6561-FB9E-7ABD-6AF25469223B</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="314BD429-A28E-9231-02B4-AF2D64335D63" name="followersv1_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 18:35:16 UTC</createdTime>
+<generatorID>5C0C0EA3-1A33-9E8B-1000-5260F7902ABC</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A6901D4-3EF2-68AC-A7EA-3A20759BB8DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

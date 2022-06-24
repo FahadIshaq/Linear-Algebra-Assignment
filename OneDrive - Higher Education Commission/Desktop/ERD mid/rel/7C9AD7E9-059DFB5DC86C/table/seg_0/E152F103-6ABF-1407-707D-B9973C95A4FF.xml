@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E152F103-6ABF-1407-707D-B9973C95A4FF" name="use">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tweet_tweet_id" id="C02B79A3-FA77-2DF7-BC64-A2DE6AC05EA7">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5F6F9A8-7ED5-FE59-42FA-EBEBBE7EE5F4" referredColumn="0BA84046-731E-95A7-339D-805B81BF7752"/>
+</associations>
+</Column>
+<Column name="tag_tag_id" id="5B452F0A-AC9B-D783-E047-61008F613704">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FB47789-BB0E-DD93-3223-D1C9A69134BF" referredColumn="ACEF78AB-708A-CF3F-7E58-89CE28E2DA20"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8689E932-F722-B5F4-33E3-E22B27F6EE21" name="use_PK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<ownerDesignName>ERD mid</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C02B79A3-FA77-2DF7-BC64-A2DE6AC05EA7"/>
+<colUsage columnID="5B452F0A-AC9B-D783-E047-61008F613704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="382C7DE4-CA75-0FDE-FF00-49F0CDB469EB" name="use_tweet_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>6E769210-90FC-7319-1FA0-808E0A476644</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C02B79A3-FA77-2DF7-BC64-A2DE6AC05EA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="220E2AF3-D1E8-6E6D-2D5E-0DD5C60E3031" name="use_tag_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>6E769210-90FC-7319-1FA0-808E0A476644</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B452F0A-AC9B-D783-E047-61008F613704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

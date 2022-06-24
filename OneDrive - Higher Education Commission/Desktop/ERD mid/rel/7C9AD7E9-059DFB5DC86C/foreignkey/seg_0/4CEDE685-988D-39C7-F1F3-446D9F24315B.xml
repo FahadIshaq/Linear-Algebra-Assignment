@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4CEDE685-988D-39C7-F1F3-446D9F24315B" containerWithKeyObject="EAC34ACD-81FA-64D2-900D-837DF12C6CF0" localFKIndex="B45ED272-4478-17C3-4546-21A8FD1DF684" name="trends_tag_FK">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-22 10:21:30 UTC</createdTime>
+<generatorID>0390CD32-2EA4-C5C2-F848-10CC2CAE34F4</generatorID>
+<ownerDesignName>ERD mid</ownerDesignName>
+<referredTableLongName>tag</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81339386-D0EB-D131-AEAF-FF2A04D6638F</referredTableID>
+<keyObject>8AF29571-400C-3277-09C9-F5568C41FD9A</keyObject>
+<referredKeyID>8AF29571-400C-3277-09C9-F5568C41FD9A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tag_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

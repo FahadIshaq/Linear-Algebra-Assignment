@@ -36,7 +36,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cust_name" id="19D26BE9-EA1E-6CBC-6A60-678B35816B0E">
@@ -59,7 +59,6 @@
 <engineerTo>
 <item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
@@ -73,20 +72,6 @@
 <engineerTo>
 <item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="rep_id" id="CE561835-CD11-CCCA-9EF0-65067687349E">
-<createdBy>FAHAD_ISHAQ</createdBy>
-<createdTime>2022-04-23 18:47:05 UTC</createdTime>
-<generatorID>0A34B78C-98B4-DBFF-FD4F-FAC0681725F2</generatorID>
-<ownerDesignName>ERD</ownerDesignName>
-<engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
-</engineerTo>
-<referedAttribute>3F0D8919-1D17-7D90-D1EF-5714A88FDD6A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -118,14 +103,28 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cust_gender" id="677D6D41-A43E-1760-8370-30E557051B5E">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-05-30 14:13:50 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C1EEAB56-9714-5932-33C7-5112F03E1C91" name="customer PK">
 <createdBy>FAHAD_ISHAQ</createdBy>
 <createdTime>2022-04-23 16:46:10 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="true"/>
+<item key="40D4E4FE-20FE-5198-4A81-D5FECF9D7A14" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
