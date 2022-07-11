@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD7CFB50-D397-082B-E9EF-187ACA715ACE" name="Movie">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-05-01 08:20:25 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>16CA986B-FBF2-BD99-1BAF-5F18BDD47173</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Phase" id="F8295650-0736-B59D-D25F-8E976064E042">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-09 18:34:46 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Box_office" id="E5E7718C-B698-08FF-B1C5-A6A35E6743AB">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-09 18:50:51 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

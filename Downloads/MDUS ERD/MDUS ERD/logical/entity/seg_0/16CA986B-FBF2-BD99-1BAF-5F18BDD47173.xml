@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16CA986B-FBF2-BD99-1BAF-5F18BDD47173" name="Entertainment">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-04-25 19:33:07 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>972B0BA5-811C-4100-63E9-501E54DDFFFD</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MSA_ID" id="8B6F47CF-690D-6464-E5F4-2024B5953546">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-05-01 08:12:42 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MSA_Name" id="11836E2F-F896-8749-34DE-669AA9298D29">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-05-01 08:12:42 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="release_Date" id="95CF3017-6BBE-4E22-C12E-A849931ABA1E">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-05-01 08:12:43 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distributed_by" id="BA1064A2-0296-8BA9-431C-E57F2F56267F">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:29:37 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plot_summary" id="347E1557-4229-5F60-7CE2-3A69BF67A982">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-08 01:23:50 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pic" id="77744F0A-0AB9-B3B0-210F-0AA44268F2D0">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-08 01:24:28 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="1CBB6245-2931-05CF-61B7-419171B29F53">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-08 18:57:44 UTC</createdTime>
+<generatorID>D6D7ABEC-4C69-2E78-2645-2C989936C6A9</generatorID>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<referedAttribute>2D1F9E8C-41A0-6B38-F981-D6BD7302B55A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E_type" id="972B0BA5-811C-4100-63E9-501E54DDFFFD">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-05 06:07:40 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A2C87B4-59A7-C89E-D302-44DFADEBB5DC" name="View PK">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-05-01 08:13:06 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B6F47CF-690D-6464-E5F4-2024B5953546</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

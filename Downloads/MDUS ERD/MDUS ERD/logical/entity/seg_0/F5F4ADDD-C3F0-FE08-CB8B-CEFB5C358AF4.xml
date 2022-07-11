@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F5F4ADDD-C3F0-FE08-CB8B-CEFB5C358AF4" name="Studios">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:25:43 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Studio_ID" id="9BEDDE03-18C0-D296-757A-10BF8C78A5C4">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:25:55 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Studio_Name" id="D7317982-D44B-19C6-D8D7-AD2F55CD1B92">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:25:55 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Established" id="35562EF8-6B34-A2B5-D8D9-268EB36FAFBB">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:25:56 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B7CA5569-3DAD-BC56-D2A6-B28BE2125963" name="Studio PK">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-06 15:27:05 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BEDDE03-18C0-D296-757A-10BF8C78A5C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

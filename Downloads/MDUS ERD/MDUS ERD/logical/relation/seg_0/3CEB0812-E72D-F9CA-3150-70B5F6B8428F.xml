@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Produced_Entertainment" directorySegmentName="seg_0" id="3CEB0812-E72D-F9CA-3150-70B5F6B8428F">
+<createdBy>FAHAD_ISHAQ</createdBy>
+<createdTime>2022-07-07 11:29:18 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F5F4ADDD-C3F0-FE08-CB8B-CEFB5C358AF4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16CA986B-FBF2-BD99-1BAF-5F18BDD47173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

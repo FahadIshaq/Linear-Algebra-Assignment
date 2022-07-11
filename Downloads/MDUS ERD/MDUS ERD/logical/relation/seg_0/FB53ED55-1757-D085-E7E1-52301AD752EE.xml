@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reviews" directorySegmentName="seg_0" id="FB53ED55-1757-D085-E7E1-52301AD752EE">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-01 02:42:06 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1F87D59B-8CB5-FF6A-8813-2018D5E632C1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16CA986B-FBF2-BD99-1BAF-5F18BDD47173</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Review" id="4F349102-031D-7792-8A1C-F7C05E7AAC19">
+<createdBy>Anfaal</createdBy>
+<createdTime>2022-06-01 02:42:23 UTC</createdTime>
+<ownerDesignName>MDUS ERD</ownerDesignName>
+<engineerTo>
+<item key="0DEE3CEB-AD79-9B38-B180-E12DA5336882" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
